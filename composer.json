@@ -1,0 +1,21 @@
+{
+  "name": "rogerbca/base-form",
+  "description": "Base php para formularios",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "RogerBCA\\CoreForm\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Roger Cruz",
+      "email": "rbaltazarc@gmail.com"
+    }
+  ]
+}
