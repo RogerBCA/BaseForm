@@ -3,9 +3,7 @@
   "description": "Base php para formularios",
   "type": "library",
   "license": "MIT",
-  "require": {
-    "phpmailer/phpmailer": "^6.9"
-  },
+  "require": {},
   "autoload": {
     "psr-4": {
       "RogerBCA\\CoreForm\\": "src/"
