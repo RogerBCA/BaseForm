@@ -135,7 +135,7 @@ class Database
             if (! empty($key_field) && isset($row[$key_field])) {
                 $key = $row[$key_field];
             }
-            $result[$key] = new stdClass();
+            $result[$key] = new \stdClass();
             foreach ($row as $column => $value) {
                 $this->is_serialized($value, $value);
                 $result[$key]->{$column} = $this->clean($value);
