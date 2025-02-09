@@ -75,7 +75,7 @@ class Database
             throw new DatabaseException('Database connection error: ' . $this->mysql->connect_error);
         }
 
-        $this->mysql->set_charset('utf8');
+        $this->mysql->set_charset('utf8mb4');
     }
 
     /**
